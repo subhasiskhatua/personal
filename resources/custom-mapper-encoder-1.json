@@ -1,0 +1,68 @@
+{
+  "name": "name 1",
+  "menu": [
+    {
+      "id": "file1",
+      "value": "File1",
+      "popup": {
+        "menuitem": [
+          {
+            "value": "New1",
+            "onclick": "CreateNewDoc()"
+          },
+          {
+            "value": "Open1",
+            "onclick": "OpenDoc()"
+          },
+          {
+            "value": "Close1",
+            "onclick": "CloseDoc()"
+          }
+        ]
+      },
+      "length": "100"
+    },
+    {
+      "id": "file2",
+      "value": "File2",
+      "popup": {
+        "menuitem": [
+          {
+            "value": "New2",
+            "onclick": "CreateNewDoc()"
+          },
+          {
+            "value": "Open2",
+            "onclick": "OpenDoc()"
+          },
+          {
+            "value": "Close2",
+            "onclick": "CloseDoc()"
+          }
+        ]
+      },
+      "length": "200"
+    },
+    {
+      "id": "file2",
+      "value": "File2",
+      "popup": {
+        "menuitem": [
+          {
+            "value": "New2",
+            "onclick": "CreateNewDoc()"
+          },
+          {
+            "value": "Open2",
+            "onclick": "OpenDoc()"
+          },
+          {
+            "value": "Close2",
+            "onclick": "CloseDoc()"
+          }
+        ]
+      },
+      "length": "300"
+    }  
+  ]
+}
